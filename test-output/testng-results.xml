@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="17435" started-at="2022-05-11T19:54:24Z" finished-at="2022-05-11T19:54:41Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@7a0ac6e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group>
+    </groups>
+    <test name="MobileTestingFramework" duration-ms="17435" started-at="2022-05-11T19:54:24Z" finished-at="2022-05-11T19:54:41Z">
+      <class name="TestRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@7a0ac6e3]" name="setUpClass" is-config="true" duration-ms="552" started-at="2022-05-11T19:54:24Z" finished-at="2022-05-11T19:54:25Z">
+        </test-method>
+        <test-method status="PASS" signature="Start()[pri:0, instance:TestRunner.TestRunner@7a0ac6e3]" name="Start" is-config="true" duration-ms="180" started-at="2022-05-11T19:54:25Z" finished-at="2022-05-11T19:54:25Z">
+        </test-method>
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@7a0ac6e3]" name="runScenario" duration-ms="16268" started-at="2022-05-11T19:54:25Z" description="Runs Cucumber Scenarios" finished-at="2022-05-11T19:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to the TestProjectDemo application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Check User Credentials]"]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Start()[pri:0, instance:TestRunner.TestRunner@7a0ac6e3]" name="Start" duration-ms="1" started-at="2022-05-11T19:54:41Z" finished-at="2022-05-11T19:54:41Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestRunner.TestRunner@7a0ac6e3]" name="teardown" is-config="true" duration-ms="409" started-at="2022-05-11T19:54:41Z" finished-at="2022-05-11T19:54:41Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@7a0ac6e3]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2022-05-11T19:54:41Z" finished-at="2022-05-11T19:54:41Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

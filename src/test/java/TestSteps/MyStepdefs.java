@@ -29,8 +29,8 @@ public class MyStepdefs {
     public void setUp() throws MalformedURLException {
 
 
-        ds.setCapability("deviceName", "ZY22CXHHJK");
-        ds.setCapability("udid", "ZY22CXHHJK");
+        ds.setCapability("deviceName", "");
+        ds.setCapability("udid", "");
         ds.setCapability("platformName", "Android");
         ds.setCapability("platformVersion", "10");
         ds.setCapability("appPackage", "io.testproject.demo");

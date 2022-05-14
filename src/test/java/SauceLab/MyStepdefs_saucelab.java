@@ -24,13 +24,13 @@ public class MyStepdefs_saucelab {
     @Before
     public void setUp() throws MalformedURLException {
 
-        MutableCapabilities caps = new MutableCapabilities();
+        DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("platformName","Android");
         caps.setCapability("appium:deviceName","Android GoogleAPI Emulator");
         caps.setCapability("appium:deviceOrientation", "portrait");
         caps.setCapability("appium:platformVersion","12.0");
-        caps.setCapability("appium:app", "storage:filename=<your-app>.apk");
-        MutableCapabilities sauceOptions = new MutableCapabilities();
+        caps.setCapability("appium:app", "storage:filename=testproject-demo-app.apk");
+        DesiredCapabilities sauceOptions = new DesiredCapabilities();
         caps.setCapability("sauce:options", sauceOptions);
 
         URL url = new URL("https://oauth-shilpash317-59d9e:a952cba8-33aa-4325-9e01-76f3b8399565@ondemand.us-west-1.saucelabs.com:443/wd/hub");

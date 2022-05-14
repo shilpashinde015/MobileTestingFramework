@@ -14,11 +14,11 @@ import com.aventstack.extentreports.reporter.*;
         features = { "src/test/java/TestSteps/testDemo.feature"}, glue = "TestSteps")
 
 public class TestRunner extends AbstractTestNGCucumberTests {
-    public static ExtentSparkReporter htmlReporter;
-    public static ExtentReports extent;
-    public static ExtentTest test1;
+  //  public static ExtentSparkReporter htmlReporter;
+    //public static ExtentReports extent;
+    //public static ExtentTest test1;
 
-    @BeforeClass
+  /*  @BeforeClass
     @Test
     public static void Start() {
         htmlReporter = new ExtentSparkReporter("C:/Users/shilp/javaprg/MobileTestingFramework/Reports/extentReport.html");
@@ -34,5 +34,5 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     public static void teardown() {
         test1.info("test completed");
         extent.flush();
-    }
+    }*/
 }

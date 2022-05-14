@@ -13,7 +13,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import static TestRunner.TestRunner.test1;
 
 import java.net.MalformedURLException;
 import java.net.URL;

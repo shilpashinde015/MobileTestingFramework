@@ -1,25 +1,20 @@
-package TestSteps;
+package Database;
 
-import Database.TestDB;
 import PageObjectModel.Createprofile;
 import PageObjectModel.demoLogin;
-import com.aventstack.extentreports.Status;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.Before;
-
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-public class MyStepdefs {
+public class MyStepdefsDb {
     demoLogin dm;
     Createprofile cp;
     DesiredCapabilities ds = new DesiredCapabilities();
@@ -54,8 +49,6 @@ public class MyStepdefs {
 
     @And("Enter Credentials {string} and {string}")
     public void enterCredentialsAnd(String username, String password) {
-      //  username = Utility.testDemoProperties.getUsername_testdemo();
-       // password = Utility.testDemoProperties.getPassword_testdemo();
         username = TestDB.getuName();
         password = TestDB.getuPass();
         dm.enterusernameandpassword(username, password);
